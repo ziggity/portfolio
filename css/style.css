@@ -1,0 +1,38 @@
+#Banner {
+  text-align: left;
+}
+
+.top {
+  color:blue;
+}
+.image {
+  width: 175px;
+  length:175px;
+  padding: 20px;
+  border: 20px;
+}
+body { padding-top: 50px; }
+
+.banner{
+  max-width:100%;
+
+
+}
+.title{
+  color:teal;
+  font-size: 45px;
+  font-style: oblique;
+  font-stretch: normal;
+}
+#random {
+    width: 200px;
+    height: 200px;
+    border: 15px solid gold;
+    margin: 5px;
+}
+#P{
+  text-align:center;
+}
+#water {
+    background-color: silver;
+}
