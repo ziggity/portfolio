@@ -74,4 +74,8 @@ h3{
         float: left;
         background: red;
     }
-  
+
+  #rock {
+    color:red;
+    font-family: sans-serif;
+  }

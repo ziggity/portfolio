@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen">
 </head>
+
 <title>Zach Beecher's Portfolio</title>
+
 <body background="https://s3.amazonaws.com/codementor_content/2016-Feb/best2016.jpg">
-<div class="container">
-    <img src="https://s-media-cache-ak0.pinimg.com/originals/62/24/57/6224577e0e2cd650c0dfa9d142b8b64f.jpg" class="banner img-responsive">
-</div>
+  <div class="container">
+    <div class="row">
+
+
+      <img src="http://www.immunology2016.org/wp-content/uploads/2015/08/seattle_view_slider2.jpg" class="banner img-responsive img">
+
+<!--<div class="container">
+   <div style="background-image: url(http://www.immunology2016.org/wp-content/uploads/2015/08/seattle_view_slider2.jpg); background-size: cover; background-position: center; height: 300px" class="border-radius:10px"/>
+</div> I was testing this method, but I couldn't figure out how to use bootstrap with this format / aka resonsive attritube -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -32,49 +40,82 @@
           </ol>
     </div>
 </nav>
-<div class="row">
-    <div class="span12">
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="span12">
       <h1 class="text-primary text-center bg-success">Zach Beecher's Portfolio</h1>
+      </div>
     </div>
+  </div>
 </div>
 
+<div class="row">
+  <div class="col-lg-12">
+    <div id='content' class='row-fluid'>
+    <div class='span2 sidebar'>
+        <h3 class="bg-info text-center">Links to my favorite websites that I created with teammembers @ Epicodus so far:</h3>
 
-<div id='content' class='row-fluid'>
-<div class='span2 sidebar'>
-    <h3 class="bg-info">Links to my best websites so far:</h3>
-    <ul class="nav nav-tabs nav-stacked">
-      <li><a href="https://github.com/ziggity/resortweb/blob/version2.0/resortaccomodations.html">Exotic Resort</a></li>
-      <li><a href="https://github.com/ziggity/hawaiivacay">Hawaii Vacation</a></li>
-      <li><a href="https://github.com/ziggity/WIKI">Emulate Wikipedia</a></li>
-    </ul>
-</div>
+    </div>
+<div class="container">
+  <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+          <a href="https://github.com/ziggity/resortweb/blob/version2.0/resortaccomodations.html">
+              <img class="img-responsive text-center" src="http://www.astonhotels.com/assets/resort-images/TRO/TRO-690x380-Resort-Pool-01.jpg" alt="resortaccomodations"><a href="https://github.com/ziggity/resortweb/blob/version2.0/resortaccomodations.html"><p class="text-center">Exotic Resort</p></a>
+          </a>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+          <a href="https://github.com/ziggity/hawaiivacay">
+              <img class="img-responsive" src="https://img0.etsystatic.com/025/0/7476189/il_fullxfull.630278320_rqxa.jpg" alt="hawaii">  <a href="https://github.com/ziggity/hawaiivacay"><p class="text-center">Hawaii Vacation</p></a>
+          </a>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+          <a href="https://github.com/ziggity/WIKI">
+              <img class="img-responsive text-center" src="http://studentsforliberty.org/wp-content/uploads/2014/08/wikipedia1.png" alt="wiki pedia logo"><a href="https://github.com/ziggity/WIKI"><p class="text-center">Emulate the frontpage of Wikipedia</p></a>
+          </a>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+          <a href="https://github.com/ziggity/dog">
+              <img class="img-responsive text-center" src="http://www.humanesocietyofdickson.com/uploads/1/2/9/0/12908446/7388942_orig.jpg" alt="dog"><a href="https://github.com/ziggity/dog"><p class="text-center">Adopt a Dog today!</p></a>
+          </a>
+      </div>
+  </div>
+
+
+
+
+
+
 
 <div class='span8 main'>
-  <h2 class="panel">Main Content Section</h2>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+  <h2 class="panel text-center">If you don't mind, let's go into more detail about my projects:</h2>
+  <p class="text"><em>I'm so excited to be at Epicodus, this is really a dream of mine! Let's dive right into my projects so far:</em>
 
 <ul>
-   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-   <li>Aliquam tincidunt mauris eu risus.</li>
+   <li>I really loved this personal assignment, and look forward to improving it in the future!</li>
+   <li>I'll talk a bit about my projects below:</li>
    <ol>
-   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-   <li>Aliquam tincidunt mauris eu risus.</li>
-   <li>Vestibulum auctor dapibus neque.</li>
+   <li><b>Exotic resort</b>, I got to work with Xing Li, and Elliot C.. We built an underwater Poseidon's world, which was fun to imagine and create the layout for that (Tech we used:HTML, CSS)</li>
+   <li> <b>Hawaii Vacation</b> I got to work with Tom Y.We agreed on Tuna lorem Ipsum, which made us giggle to no end! We used grids to setup 3 rows, and 3 columns, to show case Date, Cost, and activitiy associated with it (Tech we used: bootstrap, CSS, html)</li>
+   <li><b>Emulate Wikipedia</b>I worked with Tom Y. on this one, too. This was our final project for Thursday, I feel we should have had more time honestly, as it was an immense undertaking. I enjoyed the process, working through each problem we encountered. We used containers and rows, within rows, (Row inception!)(Tech we used:CSS, bootstrap navbars, HTML)</li>
+   <li><b>Adopt a dog</b> I got to work with Brant Porter, in this project we built a nice adoption website using lists, divs, and imgs</li>
+
 </ol>
 
-   <li>Vestibulum auctor dapibus neque.</li>
+   <li>Keep up the great program, I'm telling all my friends about Epicodus!</li>
 </ul>
 
-
-  <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+  <p>Until the next project, cheers!</p>
 </div>
 <div class='span2 sidebar'>
-  <span><h3 class="bg-info">My favorite languages</h3></span>
-  <ul class="nav nav-tabs nav-stacked">
-    <li><a href='#'>Another Link 1</a></li>
-    <li><a href='#'>Another Link 2</a></li>
-    <li><a href='#'>Another Link 3</a></li>
+  <h3 class="page-header text-center">Here's a list of My favorite languages</h3>
+  <ul>
+    <div class="container text-center">
+    <li><a href='https://en.wikipedia.org/wiki/Cascading_Style_Sheets'><p id="nobullet">CSS</p></a></li>
+    <li><a href='https://en.wikipedia.org/wiki/JavaScript'><p id="nobullet">Javascript</p></a></li>
+    <li><a href='https://en.wikipedia.org/wiki/HTML'><p id="nobullet">HTML<p></a></li>
   </ul>
+</div>
 </div>
 </div>
 </div>
@@ -84,19 +125,25 @@
 
   <div class="container">
     <div class="row">
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAlKAAAAJDVjNjM0MGY2LTZkNzQtNDc1Yi05YzFkLTU2MTExMTlhMzViZA.jpg" class="text-center">
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAlKAAAAJDVjNjM0MGY2LTZkNzQtNDc1Yi05YzFkLTU2MTExMTlhMzViZA.jpg" class="text-center "><p>Here's my wedding photo from May 22, 2015! Wow, time flies when you're having fun, huh!</p>
         </div>
         </div>
+    </form>
+    </div>
+    </div>
+
+</body>
+</html>
 
 
-        <form action="#" method="post">
+        <form>
             <div>
-                 <label for="name">Name + Email:</label>
+                 <label for="name"><p>Please contact me! </p><span class="bg-success"> Leave your Name + Email:</span></label>
                  <input type="text" name="name" id="name" value="" tabindex="1" />
             </div>
 
             <div>
-                 <h4>Are you available to beta test my future websites?</h4>
+                 <h4 id="rock">Are you available to beta test my future websites?</h4>
 
                  <label for="radio-choice-1">Yes, of course!</label>
                  <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
