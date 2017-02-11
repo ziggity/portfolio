@@ -1,21 +1,18 @@
-#Banner {
-  text-align: left;
-}
 
-.top {
-  color:blue;
-}
-.image {
-  width: 175px;
-  length:175px;
-  padding: 20px;
-  border: 20px;
-}
 
 .banner{
   max-width:100%;
+    }
 
+.carousel-caption{
+        background-color: #282828;
+        opacity: 0.75;
+  }
+  @media(max-width: 768px){
+    h1{
+      font-size: 14px;
 
+  }
 }
 .title{
   color:teal;
@@ -34,7 +31,7 @@ body {
 }
 
 #content{
-
+    color:blue;
 }
 
 .text{
